@@ -10,7 +10,7 @@
 
 # Linkout
 
-Local LinkedIn tooling for signed-in desktop Chrome.
+LinkedIn workflows that stay on the user's device.
 
 ## Repositories
 
@@ -20,7 +20,7 @@ Local LinkedIn tooling for signed-in desktop Chrome.
 
 ## Runtime position
 
-Linkout keeps authentication on the user device. It does not submit LinkedIn credentials, copy `.env` files, set cookies, run headless LinkedIn automation, use proxies, or ship Sales Nav scraping.
+Linkout keeps authentication on the user device. It does not submit LinkedIn credentials, copy `.env` files, set cookies, run headless LinkedIn automation, or use proxies.
 
 ## Maintainer
 

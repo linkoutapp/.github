@@ -1,26 +1,27 @@
 <p align="center">
-  <a href="">
-    <img  alt="logo" src="https://raw.githubusercontent.com/linkoutapp/brand/main/scraper-transparent.svg"  height="128" width="128" />
+  <a href="https://github.com/linkoutapp/brand" aria-label="Linkout brand">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/linkoutapp/brand/main/scraper-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/linkoutapp/brand/main/scraper-transparent.svg">
+      <img alt="Linkout" src="https://raw.githubusercontent.com/linkoutapp/brand/main/scraper-transparent.svg" width="160">
+    </picture>
   </a>
 </p>
 
-<h1 align="center">Linkout Linkedin Scraper</h1>
+# Linkout
 
-<p align="center">
-  <a href="https://opensource.org/licenses/MIT" target="_blank">
-    <img alt="License: MIT License" src="https://img.shields.io/badge/License-MIT License-yellow.svg" />
-  </a>
-</p>
+Local LinkedIn tooling for signed-in desktop Chrome.
 
-Here you can find secure scraping using Puppeteer for different LinkedIn actions
+## Repositories
 
-- [x] Login
-- [x] Connection Request
-- [x] Follow message
-- [x] Visit Profile
-- [x] Like posts
-- [x] Endorse Profile
+- `linkout-scraper` — Node.js package and read-only MCP server for LinkedIn profile, connection, message, post, reaction, and comment reads.
+- `docker-image` — Docker package wrapper for the Linkout read-only MCP server.
+- `brand` — Linkout artwork and public brand assets.
 
-## Who made this project
+## Runtime position
 
-This project was made by [Linkout](https://linkout.space) - LinkedIn Outreach on Autopilot, and being maintained by [Sai Adarsh S](https://github.com/sai-adarsh). Any contribution is welcomed!
+Linkout keeps authentication on the user device. It does not submit LinkedIn credentials, copy `.env` files, set cookies, run headless LinkedIn automation, use proxies, or ship Sales Nav scraping.
+
+## Maintainer
+
+Maintained by [Sai-Adarsh](https://github.com/Sai-Adarsh).

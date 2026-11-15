@@ -1,33 +1,26 @@
 <p align="center">
-  <a href="https://github.com/linkoutapp/brand" aria-label="Linkout brand">
+  <a href="https://github.com/linkoutapp/brand" aria-label="Linkout brand assets">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/linkoutapp/brand/main/scraper-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/linkoutapp/brand/main/scraper-transparent.svg">
-      <img alt="Linkout" src="https://raw.githubusercontent.com/linkoutapp/brand/main/scraper-transparent.svg" width="160">
+      <img src="https://raw.githubusercontent.com/linkoutapp/brand/main/scraper-transparent.svg" alt="Linkout" width="128">
     </picture>
   </a>
 </p>
 
-# Linkout
+# Linkout organization profile
 
-LinkedIn workflows that stay on the user's device.
+This repository holds Linkout's public GitHub profile.
 
-## Repositories
+## Files
 
-- `linkout-scraper` — Node.js package and read-only MCP server for LinkedIn profile, connection, message, post, reaction, and comment reads.
-- `docker-image` — Docker package wrapper for the Linkout read-only MCP server.
-- `brand` — Linkout artwork and public brand assets.
+| File | Purpose |
+| --- | --- |
+| [profile/README.md](profile/README.md) | The profile shown at [github.com/linkoutapp](https://github.com/linkoutapp) |
+| [LICENSE](LICENSE) | Repository license |
 
-## Runtime position
+## Editing
 
-Linkout keeps authentication on the user device. It does not submit LinkedIn credentials, copy `.env` files, set cookies, run headless LinkedIn automation, or use proxies.
+Update `profile/README.md` to change the organization profile. Keep repository links and capability descriptions aligned with the code. Artwork comes from [linkoutapp/brand](https://github.com/linkoutapp/brand).
 
-## Maintainer
-
-Maintained by [Sai-Adarsh](https://github.com/Sai-Adarsh).
-
-## AppSumo setup session
-
-Linkout’s $29 offer includes one 30-minute session with Sai to set up `linkout-scraper` on your Mac. The code is free under the MIT license. The deal is in AppSumo review and is not available to buy yet.
-
-[AppSumo deal status](https://www.linkout.space/appsumo.html)
+Open a pull request for changes. This repository has no application build or runtime dependencies.
